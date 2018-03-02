@@ -175,6 +175,8 @@ def get_args():
                         action='store_true', default=False)
     parser.add_argument('-mpm', '--medalpokemon',
                         help='Show notify for tiny rattata and big magikarp.',
+    parser.add_argument('-hide', '--hide-encounters',
+                        help='Hide the encounter stats from the web',
                         action='store_true', default=False)
     parser.add_argument('-cs', '--captcha-solving',
                         help='Enables captcha solving.',
